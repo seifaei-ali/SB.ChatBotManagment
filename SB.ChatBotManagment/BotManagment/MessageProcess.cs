@@ -16,7 +16,7 @@ namespace SB.ChatBotManagment.BotManagment
         }
 
         public  Dictionary<string, BotNode> OnlineUsers = new Dictionary<string, BotNode>();
-        public  BotNode TextMessageProcess(string recivedMessage, string userId, string name, int sex)
+        public  BotNode TextMessageProcess(string recivedMessage, string userId, string name, int sex, MessengerType messengerType)
         {
             if (!OnlineUsers.ContainsKey(userId))
             {
@@ -24,7 +24,7 @@ namespace SB.ChatBotManagment.BotManagment
             }
             else
             {
-                BotTools.Models.RecivedData recivedData = new BotTools.Models.RecivedData(recivedMessage, string.Empty, userId, name, sex);
+                BotTools.Models.RecivedData recivedData = new BotTools.Models.RecivedData(recivedMessage, string.Empty, userId, name, sex, messengerType);
                 BotNode botNode = OnlineUsers[userId];
                 OnlineUsers[userId] = botNode.Process(recivedData);
             }
@@ -32,7 +32,7 @@ namespace SB.ChatBotManagment.BotManagment
             return OnlineUsers[userId];
         }
 
-        public  BotNode BankMessageProcess(string recivedMessage, string jsonData, string userId)
+        public  BotNode BankMessageProcess(string recivedMessage, string jsonData, string userId, MessengerType messengerType)
         {
             if (!OnlineUsers.ContainsKey(userId))
             {
@@ -40,7 +40,7 @@ namespace SB.ChatBotManagment.BotManagment
             }
             else
             {
-                BotTools.Models.RecivedData recivedData = new BotTools.Models.RecivedData(recivedMessage, jsonData, userId, String.Empty, 0);
+                BotTools.Models.RecivedData recivedData = new BotTools.Models.RecivedData(recivedMessage, jsonData, userId, String.Empty, 0, messengerType);
                 BotNode botNode = OnlineUsers[userId];
                 OnlineUsers[userId] = botNode.Process(recivedData);
             }

@@ -79,7 +79,7 @@ namespace SB.ChatBotManagment.Runner
                     responseMessageId = e.Update.Message.MessageId;
                 }
 
-                var response = this.MessageProcess.TextMessageProcess(responseText, chatId.ToString(), userName, 2);
+                var response = this.MessageProcess.TextMessageProcess(responseText, chatId.ToString(), userName, 2, MessengerType);
 
 
                 if (!string.IsNullOrEmpty(response.StartMessageText))

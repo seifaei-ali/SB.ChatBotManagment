@@ -19,12 +19,15 @@ namespace SB.ChatBotManagment.BotTools.Models
 
         public Dictionary<string, string> Data { get; private set; }
 
-        public RecivedData(string message, string jsonData, string userId, string name, int sex)
+        public MessengerType MessengerType { get; set; }
+
+        public RecivedData(string message, string jsonData, string userId, string name, int sex, MessengerType messengerType)
         {
             this.Message = message;
             this.Name = name;
             this.Sex = sex;
             this.UserId = userId;
+            this.MessengerType = messengerType;
             this.Data = JsonConvert.DeserializeObject<Dictionary<string, string>>(jsonData);
         }
     }

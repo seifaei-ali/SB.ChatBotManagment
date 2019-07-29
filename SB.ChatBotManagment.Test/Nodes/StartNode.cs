@@ -24,6 +24,7 @@ namespace SB.ChatBotManagment.Test.Nodes
 
         public override BotNode Process(RecivedData recivedData)
         {
+
             if (recivedData.Message == Texts.SelectNumber)
             {
                 return new NodeSelectNumber();
