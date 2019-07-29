@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SeifaeiBrothers.ChatBotManagment</id>
+    <version>3.0.0</version>
+    <title>SB.ChatBotManagment</title>
+    <authors>Seifaei.Ali</authors>
+    <owners>Seifaei.ali</owners>
+    <projectUrl>https://github.com/seifaei-ali/SB.ChatBotManagment</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Statemachin for bots</description>
+    <releaseNotes></releaseNotes>
+    <copyright></copyright>
+    <tags></tags>
+  </metadata>
+    <files>
+	<file src="bin\$configuration$\Telegram.bot.dll" target="lib\net461" />
+  </files>
+</package>

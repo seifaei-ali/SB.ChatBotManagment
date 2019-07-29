@@ -1,0 +1,15 @@
+E:\Ali\Needs\ChatBot\ChatBot_Ver2\SB.ChatBotManagment\bin\Release\SB.ChatBotManagment.dll
+E:\Ali\Needs\ChatBot\ChatBot_Ver2\SB.ChatBotManagment\bin\Release\SB.ChatBotManagment.pdb
+E:\Ali\Needs\ChatBot\ChatBot_Ver2\SB.ChatBotManagment\bin\Release\DocumentFormat.OpenXml.dll
+E:\Ali\Needs\ChatBot\ChatBot_Ver2\SB.ChatBotManagment\bin\Release\Newtonsoft.Json.dll
+E:\Ali\Needs\ChatBot\ChatBot_Ver2\SB.ChatBotManagment\bin\Release\SB.Tools.Classes.dll
+E:\Ali\Needs\ChatBot\ChatBot_Ver2\SB.ChatBotManagment\bin\Release\System.IO.FileSystem.Primitives.dll
+E:\Ali\Needs\ChatBot\ChatBot_Ver2\SB.ChatBotManagment\bin\Release\System.IO.Packaging.dll
+E:\Ali\Needs\ChatBot\ChatBot_Ver2\SB.ChatBotManagment\bin\Release\Telegram.Bot.dll
+E:\Ali\Needs\ChatBot\ChatBot_Ver2\SB.ChatBotManagment\bin\Release\DocumentFormat.OpenXml.xml
+E:\Ali\Needs\ChatBot\ChatBot_Ver2\SB.ChatBotManagment\bin\Release\Newtonsoft.Json.xml
+E:\Ali\Needs\ChatBot\ChatBot_Ver2\SB.ChatBotManagment\obj\Release\SB.ChatBotManagment.csproj.CoreCompileInputs.cache
+E:\Ali\Needs\ChatBot\ChatBot_Ver2\SB.ChatBotManagment\obj\Release\SB.ChatBotManagment.csproj.CopyComplete
+E:\Ali\Needs\ChatBot\ChatBot_Ver2\SB.ChatBotManagment\obj\Release\SB.ChatBotManagment.dll
+E:\Ali\Needs\ChatBot\ChatBot_Ver2\SB.ChatBotManagment\obj\Release\SB.ChatBotManagment.pdb
+E:\Ali\Needs\ChatBot\ChatBot_Ver2\SB.ChatBotManagment\obj\Release\SB.ChatBotManagment.csprojAssemblyReference.cache
