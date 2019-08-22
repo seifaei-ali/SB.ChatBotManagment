@@ -125,14 +125,14 @@ namespace SB.ChatBotManagment.Runner
                         && response.Buttons.Count > 0)
                 {
 
-                    if (this.MessengerType == MessengerType.Bale)
-                    {
-                        await _tlBotClient.SendTextMessageAsync(chatId, response.Text, replyMarkup: new ReplyKeyboardMarkup(GetButtons(response.Buttons)));
-                    }
-                    else
-                    {
+                    //if (this.MessengerType == MessengerType.Bale)
+                    //{
+                    //    await _tlBotClient.SendTextMessageAsync(chatId, response.Text, replyMarkup: new ReplyKeyboardMarkup(GetButtons(response.Buttons)));
+                    //}
+                    //else
+                    //{
                         await _tlBotClient.SendTextMessageAsync(chatId, response.Text, replyMarkup: new InlineKeyboardMarkup(GetInlineButtons(response.Buttons)));
-                    }
+                    //}
                 }
                 else
                 {

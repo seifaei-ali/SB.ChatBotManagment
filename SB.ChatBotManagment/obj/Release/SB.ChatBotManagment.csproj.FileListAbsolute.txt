@@ -125,3 +125,4 @@ E:\Ali\Needs\SB.ChatBotmanagment\SB.ChatBotManagment\obj\Release\SB.ChatBotManag
 E:\Ali\Needs\SB.ChatBotmanagment\SB.ChatBotManagment\obj\Release\SB.ChatBotManagment.csproj.CopyComplete
 E:\Ali\Needs\SB.ChatBotmanagment\SB.ChatBotManagment\obj\Release\SB.ChatBotManagment.dll
 E:\Ali\Needs\SB.ChatBotmanagment\SB.ChatBotManagment\obj\Release\SB.ChatBotManagment.pdb
+E:\Ali\Needs\SB.ChatBotmanagment\SB.ChatBotManagment\obj\Release\SB.ChatBotManagment.csprojAssemblyReference.cache
