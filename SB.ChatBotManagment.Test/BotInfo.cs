@@ -23,7 +23,7 @@ namespace SB.ChatBotManagment.Test
         public BotNode StartNode => new StartNode("Hello dear");
         public void ListenRun()
         {
-            throw new NotImplementedException();
+           
         }
     }
 }
